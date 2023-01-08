@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1350px;
+    right: 320px;
+    top: 578px;
+    border: 0;
+    padding: 21px 25px;
+}
+
+.header {
+    position: absolute;
+    width: 1600px;
+    height: 808px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url(../images/gradient3.png);
+}
+
+
+
+
+/* header-banner styles starts */
+
+.banner {
+    display: flex;
+    margin: 0px 10px 100px 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+
+
+
+}
+
+.banner-title {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 985px;
+    top: 216px;
+    right: 320px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+}
+
+.banner-desc {
+    position: absolute;
+    width: 494px;
+    height: 84px;
+    left: 1016px;
+    top: 462px;
+    right: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+
+/* header-banner styles ends */
+
+
+
+/* main-failure styles starts */
+
+.failure {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+    justify-content: space-between;
+
+
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    margin-bottom: 18px;
+}
+
+.failure-desc {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+
+.container-info {
+    margin-left: 87px;
+}
+
+.container-img {
+
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+
+.p {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 10px;
+
+
+}
+
+
+.material-icons {
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+    margin-right: 10px;
+    left: 862px;
+    top: 1417px;
+
+}
+
+.p .one {
+    position: absolute;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 896px;
+
+
+}
+
+/* main-failure styles ends */
+
+
+
+/* main-plans styles starts */
+
+
+.plans {
+    margin-top: 130px;
+    text-align: center;
+    display: block;
+
+}
+
+
+
+.plans-title {
+
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1792px;
+    justify-content: center;
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+
+    color: #151414;
+}
+
+.info-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    width: 270px;
+    height: 35px;
+    left: 230px;
+    top: 2011.96px;
+    color: #151414;
+
+
+}
+
+
+
+.info-desc {
+
+    width: 177px;
+    height: 29px;
+    left: 277px;
+    top: 2062.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #737272;
+}
+
+.plans-container {
+    display: flex;
+    /*position: absolute;
+    width: 1141px;
+    
+    left: 230px;
+    top: 1889px;*/
+    justify-content: space-around;
+    height: 202.96px;
+}
+
+.plans-info {
+
+    width: 1141px;
+    height: 202.96px;
+    margin-left: 230px;
+    margin-top: 1000px;
+}
+
+
+.gradient {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    border-radius: 8px;
+}
+
+.gra-title {
+
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+
+    color: #FFFFFF;
+
+
+
+
+}
+
+.footer {
+    position: absolute;
+    width: 1830px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+
+    /* Dark 01 */
+
+    background: #151414;
+}
+
+.foot {
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 100.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: white;
+}
+
+.desc {
+
+    position: absolute;
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 150.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+
+
+
+    color: white;
+
+}
+
+.email {
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 300.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.phone {
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 230px;
+    top: 400.96px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+
+
+    color: #FFFFFF;
+
+}
